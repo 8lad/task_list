@@ -28,7 +28,13 @@ body {
     flex: 0 0 auto;
 }
 
-body {}
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    background: rgb(251, 251, 251);
+    background: linear-gradient(180deg, rgba(251, 251, 251, 1) 0%, rgba(80, 111, 176, 1) 100%);
+}
 
 a {
     display: inline-block;
@@ -46,9 +52,10 @@ li {
 
 .container {
     margin: 0 auto;
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
-.container-fluide {}
 
 h1,
 h2,
@@ -59,7 +66,12 @@ h6,
 p,
 form,
 input,
-span {
+span,
+fieldset {
     margin: 0;
     padding: 0;
+}
+
+fieldset {
+    border: none;
 }
