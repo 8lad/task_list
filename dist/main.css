@@ -26,8 +26,9 @@ body {
   font-family: 'Roboto-Regular', sans-serif;
   font-size: 18px;
   line-height: 22px;
-  background: #fbfbfb;
-  background: linear-gradient(180deg, #fbfbfb 0%, #506fb0 100%); }
+  background: #525252;
+  background: linear-gradient(45deg, #525252 0%, #03050a 100%);
+  color: #f0f0f0; }
 
 a {
   display: inline-block;
@@ -87,11 +88,79 @@ fieldset {
   padding-bottom: 50px; }
   .main__title {
     text-align: center;
-    margin-bottom: 40px; }
-  .main__form input,
-  .main__form button {
+    margin-bottom: 60px; }
+  .main__form {
+    margin-bottom: 60px; }
+    .main__form fieldset {
+      display: flex;
+      align-items: center; }
+      .main__form fieldset input,
+      .main__form fieldset button {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 15px 10px;
+        border: none;
+        color: #000; }
+      .main__form fieldset button {
+        min-width: 200px;
+        background-color: #A5BEFF;
+        box-shadow: none;
+        border-radius: 0 10px 10px 0; }
+      .main__form fieldset input {
+        width: 100%;
+        outline: none;
+        border-radius: 10px 0 0 10px; }
+      .main__form fieldset label {
+        margin-right: 30px; }
+  .main__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #000;
+    margin-bottom: 20px; }
+  .main__item-btn {
     font-size: 18px;
-    line-height: 22px; }
+    line-height: 22px;
+    padding: 10px;
+    background-color: #A5BEFF;
+    border: none;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: auto; }
+  .main__item-del {
+    max-width: 150px;
+    background-color: #F31B35;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px; }
+    .main__item-del img {
+      width: 40px;
+      padding: 10px; }
+  .main__item-done {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    visibility: hidden;
+    width: 0px;
+    height: 0px; }
+  .main__item-done.active {
+    visibility: visible;
+    width: auto;
+    height: auto; }
+  .main__item-ico {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px; }
+    .main__item-ico img {
+      width: 30px; }
 
 
 /*# sourceMappingURL=main.css.map*/

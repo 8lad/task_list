@@ -19,18 +19,37 @@
                         <div class="main__form">
                             <form action="">
                                 <fieldset>
-                                    <label for="task">Enter you task in this field</label>
-                                    <input type="text" name="task" id="">
+                                    <input type="text" name="task" id="task-input" placeholder="Enter you task in this field:">
                                     <button type="submit">Add new task</button>
                                 </fieldset>
                             </form>
                         </div>
                         <ul class="main__list">
-                            <li class="main__item"><label for="done">Task is done</label><input name="done" type="checkbox"><span>Call to boss</span><img src="" alt=""></li>
-                            <li class="main__item"><label for="done">Task is done</label><input name="done" type="checkbox"><span>24 hours of coding</span><img src="" alt=""></li>
-                            <li class="main__item"><label for="done">Task is done</label><input name="done" type="checkbox"><span>Find new costumers</span><img src="" alt=""></li>
-                            <li class="main__item"><label for="done">Task is done</label><input name="done" type="checkbox"><span>Stydy php</span><img src="" alt=""></li>
-                            <li class="main__item"><label for="done">Task is done</label><input name="done" type="checkbox"><span>Find how to create fastworking SPA</span><img src="" alt="">
+                            <li class="main__item">
+                                <div class="main__item-done">
+                                    <div class="main__item-ico">
+                                        <img src="assets/images/ok-img.svg" alt="trash icon">
+                                    </div>
+                                    <span>This task is done</span>
+                                </div>
+                                <span class="main__item-span">Call to boss</span>
+                                <button class="main__item-btn">Done</button>
+                                <div class="main__item-del">
+                                    <img src="assets/images/iwwa_trash.svg" alt="trash icon">
+                                </div>
+                            </li>
+                            <li class="main__item">
+                                <div class="main__item-done">
+                                    <div class="main__item-ico">
+                                        <img src="assets/images/ok-img.svg" alt="trash icon">
+                                    </div>
+                                    <span>This task is done</span>
+                                </div>
+                                <span class="main__item-task">Create new to do list in 5 days</span>
+                                <button class="main__item-btn">Done</button>
+                                <div class="main__item-del">
+                                    <img src="assets/images/iwwa_trash.svg" alt="trash icon">
+                                </div>
                             </li>
                         </ul>
                     </div>
