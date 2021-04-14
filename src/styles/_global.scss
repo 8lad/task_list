@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    background: linear-gradient(45deg, rgba(82, 82, 82, 1) 0%, rgba(3, 5, 10, 1) 100%);
+    color: #f0f0f0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+span,
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: none;
+}
