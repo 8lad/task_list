@@ -36,6 +36,7 @@
         fieldset {
             display: flex;
             align-items: center;
+            flex-wrap: nowrap;
             input,
             button {
                 font-size: 18px;
@@ -45,7 +46,7 @@
                 color: #000;
             }
             button {
-                min-width: 200px;
+                width: 30%;
                 background-color: $btn-color;
                 box-shadow: none;
                 border-radius: 0 10px 10px 0;
@@ -58,7 +59,7 @@
                 box-shadow: inset 1px -2px 6px 0px #000000;
             }
             input {
-                width: 100%;
+                width: 70%;
                 outline: none;
                 border-radius: 10px 0 0 10px;
             }
