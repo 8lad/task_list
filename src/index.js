@@ -6,7 +6,7 @@ import './styles/style.scss';
 // Create new element for the task list
 
 function createTheElement(taskText, element, elementClass) {
-    let newListElement = document.createElement(element);
+    const newListElement = document.createElement(element);
     newListElement.classList.add(elementClass);
     newListElement.innerHTML = `
     <div class="main__item-done">
